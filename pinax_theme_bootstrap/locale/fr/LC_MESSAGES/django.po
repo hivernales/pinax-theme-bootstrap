@@ -1,0 +1,281 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Didier Raboud <me@swisslinux.org>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-29 16:34+0800\n"
+"PO-Revision-Date: 2015-10-24 15:57+0100\n"
+"Last-Translator: Didier Raboud <me@swisslinux.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: templates/404.html:5
+msgid "Not Found"
+msgstr "Pas trouvé"
+
+#: templates/404.html:9
+msgid "Page not found"
+msgstr "Page pas trouvée"
+
+#: templates/404.html:10
+msgid "We're sorry but that page could not be found."
+msgstr "Désolé mais cette page n'a pas pu être trouvée"
+
+#: templates/500.html:5
+msgid "Server Error"
+msgstr "Erreur servuer"
+
+#: templates/500.html:9
+msgid "Something went wrong"
+msgstr "Quelque chose a foiré"
+
+#: templates/500.html:10
+msgid ""
+"We're sorry but a server error has occurred. We've been notified and will "
+"look into it as soon as possible."
+msgstr ""
+"Désolé, mais une erreur serveur est survenue. Nous avons été notifiés et "
+"allons nous pencher sur le problème aussi vite que possible."
+
+#: templates/_account_bar.html:13 templates/account/base.html:13
+msgid "Settings"
+msgstr "Paramèẗres"
+
+#: templates/_account_bar.html:15
+msgid "Admin"
+msgstr "Admin"
+
+#: templates/_account_bar.html:19 templates/account/logout.html:6
+#: templates/account/logout.html.py:12 templates/account/logout.html:16
+msgid "Log out"
+msgstr "Se déconnecter"
+
+#: templates/_account_bar.html:24 templates/account/login.html:7
+#: templates/account/login.html.py:20
+msgid "Log in"
+msgstr "Connexion"
+
+#: templates/_account_bar.html:26 templates/account/signup.html:7
+#: templates/account/signup.html.py:13 templates/account/signup.html:19
+#: templates/account/signup_closed.html:6
+msgid "Sign up"
+msgstr "Inscription"
+
+#: templates/account/base.html:10
+msgid "Account"
+msgstr "Compte"
+
+#: templates/account/base.html:16 templates/account/password_change.html:9
+#: templates/account/password_change.html:15
+msgid "Change password"
+msgstr "Changer son mot de passe"
+
+#: templates/account/base.html:19
+msgid "Delete account"
+msgstr "Supprimer son compte"
+
+#: templates/account/email_confirm.html:6
+#: templates/account/email_confirm.html:12
+msgid "Confirm Email"
+msgstr "Confirmer son email"
+
+#: templates/account/email_confirm.html:15
+msgid "Confirm email address <b>%(email)s</b>?"
+msgstr "Confirmer l'adresse email <b>%(email)s</b> ?"
+
+#: templates/account/email_confirm.html:16
+msgid "Confirm"
+msgstr "Confirmer"
+
+#: templates/account/email_confirmation_sent.html:6
+#: templates/account/email_confirmation_sent.html:9
+msgid "Confirm your email address"
+msgstr "Confirmer votre adresse email"
+
+#: templates/account/email_confirmation_sent.html:11
+#, python-format
+msgid ""
+"We have sent you an email to <b>%(email)s</b> for verification. Follow the "
+"link provided to finalize the signup process. If you do not receive it "
+"within a few minutes, contact us at <a href=\"mailto:%(THEME_CONTACT_EMAIL)s"
+"\">%(THEME_CONTACT_EMAIL)s</a>."
+msgstr ""
+
+#: templates/account/email_confirmed.html:6
+#: templates/account/email_confirmed.html:9
+msgid "Email confirmed"
+msgstr "Email confirmé"
+
+#: templates/account/email_confirmed.html:10
+#, python-format
+msgid "You have confirmed <b>%(email)s</b>"
+msgstr "L'email <b>%(email)s</b> a été confirmé."
+
+#: templates/account/login.html:13
+msgid "Log in to an existing account"
+msgstr "Se connecter à un compte existant"
+
+#: templates/account/login.html:19
+msgid "Forgot your password?"
+msgstr "Mot de passe oublié ?"
+
+#: templates/account/logout.html:15
+msgid "Are you sure you want to log out?"
+msgstr "Se déconnecter vraiment?"
+
+#: templates/account/password_change.html:19
+#: templates/account/password_reset_token.html:17
+msgid "Save"
+msgstr "Enregistrer"
+
+#: templates/account/password_reset.html:8
+#: templates/account/password_reset.html:16
+msgid "Password reset"
+msgstr "Mot de passe réinitialisé"
+
+#: templates/account/password_reset.html:17
+msgid ""
+"Forgotten your password? Enter your email address below, and we'll send you "
+"an email allowing you to reset it."
+msgstr ""
+"Mot de passe oublié ? Entrer votre adresse email ci-dessous et un courriel "
+"vous sera expédié pour vous permettre de le réinitialiser."
+
+#: templates/account/password_reset.html:23
+msgid "Reset my password"
+msgstr "Redéfinir le mot de passe"
+
+#: templates/account/password_reset.html:30
+#, python-format
+msgid ""
+"If you have any trouble resetting your password, contact us at <a href="
+"\"mailto:%(THEME_CONTACT_EMAIL)s\">%(THEME_CONTACT_EMAIL)s</a>."
+msgstr ""
+"Si vous avez des soucis pour réinitialiser votre mot de passe, merci de "
+"contacter <a href=\"mailto:%(THEME_CONTACT_EMAIL)s\">%(THEME_CONTACT_EMAIL)s<"
+"/a>."
+
+#: templates/account/password_reset_sent.html:7
+#: templates/account/password_reset_sent.html:10
+msgid "Password reset sent"
+msgstr "Réinitialisation du mot de passe envoyée"
+
+#: templates/account/password_reset_sent.html:12
+#, python-format
+msgid ""
+"We have sent you an email. If you do not receive it within a few minutes, "
+"try resending or contact us at <a href=\"mailto:%(THEME_CONTACT_EMAIL)s\">"
+"%(THEME_CONTACT_EMAIL)s</a>."
+msgstr ""
+"Un email vous a été envoyé. S'il n'a pas été reçu dans les prochaines "
+"minutes, réessayer ou contacter  <a href=\"mailto:%(THEME_CONTACT_EMAIL)s\">%"
+"(THEME_CONTACT_EMAIL)s</a>."
+
+#: templates/account/password_reset_sent.html:21
+msgid "Resend"
+msgstr "Réexpédier"
+
+#: templates/account/password_reset_sent.html:26
+#, python-format
+msgid ""
+"We have resent the password email. If you do not receive it within a few "
+"minutes, contact us at <a href=\"mailto:%(THEME_CONTACT_EMAIL)s\">"
+"%(THEME_CONTACT_EMAIL)s</a>."
+msgstr ""
+"Un email vous a été envoyé à nouveau. S'il n'a pas été reçu dans les "
+"prochaines minutes, réessayer ou contacter  <a href=\"mailto:%"
+"(THEME_CONTACT_EMAIL)s\">%(THEME_CONTACT_EMAIL)s</a>."
+
+#: templates/account/password_reset_token.html:7
+#: templates/account/password_reset_token.html:13
+msgid "Set your new password"
+msgstr "Définir le nouveau mot de passe"
+
+#: templates/account/password_reset_token_fail.html:6
+#: templates/account/password_reset_token_fail.html:9
+msgid "Bad token"
+msgstr "Jeton invalide"
+
+#: templates/account/password_reset_token_fail.html:11
+#, python-format
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a <a href=\"%(url)s\">new password reset</a>."
+msgstr ""
+"Le lien de réinitialisation du mot de passe était invalide ; il se peut qu'il "
+"ait déjà été utilisé. <a href=\"%(url)s\">Demander une nouvelle "
+"réinitialisation de mot de passe</a>."
+
+#: templates/account/signup_closed.html:9
+msgid "This site is in private beta"
+msgstr "Le site est en béta privée"
+
+#: templates/account/signup_closed.html:10
+msgid "If you have signup code you can enter it below."
+msgstr "Si vous avez le code d'inscription, inscrivez-le ci-dessous."
+
+#: templates/account/email/email_confirmation_message.txt:1
+msgid ""
+"A user on %(site_name)s has created an account using this email address.\n"
+"\n"
+"To confirm this email address, go to %(activate_url)s\n"
+"\n"
+"If you did not sign up for this site, you can ignore this message.\n"
+msgstr ""
+"Un utilisateur du site %(site_name)s a crée un compte en utilisant cette "
+"adresse email.\n"
+"\n"
+"Pour confirmer cette adresse, se rendre sur %(activate_url)s\n"
+"\n"
+"Si vous ne vous êtes pas inscrits sur ce site, vous pouvez ignorer ce "
+"message.\n"
+
+#: templates/account/email/email_confirmation_subject.txt:1
+#, python-format
+msgid "Confirm email address for %(site_name)s"
+msgstr "Confirmer l'adresse email pour %(site_name)s"
+
+#: templates/account/email/password_reset.txt:1
+#, python-format
+msgid ""
+"You're receiving this email because you or someone else has requested a "
+"password for your user account at %(site_name)s.\n"
+"It can be safely ignored if you did not request a password reset. Click the "
+"link below to reset your password.\n"
+"\n"
+"%(password_reset_url)s\n"
+msgstr ""
+"Vous recevez ce courriel parce que vous (ou quelqu'un d'autre) a demandé un "
+"mot de passe pour votre compte personnel sur %(site_name)s.\n"
+"Vous pouvez l'ignorer sans soucis si vous n'avez pas demandé de "
+"réinitialisation de mot de passe. Cliquez le lien ci-dessous pour "
+"réinitialiser votre mot de passe.\n"
+"\n"
+"%(password_reset_url)s\n"
+
+#: templates/account/email/password_reset_subject.txt:1
+#, python-format
+msgid "[%(site_name)s] Password reset"
+msgstr "[%(site_name)s] Redéfinition du mot de passe "
+
+#: templates/pagination/builtin_pagination.html:10
+#: templates/pagination/builtin_pagination.html:13
+#: templates/pagination/django_pagination_pagination.html:9
+#: templates/pagination/django_pagination_pagination.html:12
+msgid "Previous"
+msgstr "Précédent"
+
+#: templates/pagination/builtin_pagination.html:19
+#: templates/pagination/builtin_pagination.html:21
+#: templates/pagination/django_pagination_pagination.html:22
+#: templates/pagination/django_pagination_pagination.html:24
+msgid "Next"
+msgstr "Prochain"
+
+
